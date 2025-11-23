@@ -17,8 +17,15 @@ Computer with MATLAB software
 	From the value of K, analyse the stability.
 
 ## Program: 
+num=[1]
+den=[1 15 50 0]
+sys=tf(num,den)
+rlocus(sys)
+[k poles]=rlocfind(sys)
 
 ## Output:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/01dff336-c54c-4a1e-82b7-8508b099f72b" />
+
 
 ## Result:
 Thus the root locus for the given transfer function was drawn and verified using MATLAB. The conditions for stability is ------------
